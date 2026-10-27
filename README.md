@@ -29,4 +29,17 @@ Phase 1: prototype. One grey-box room, a controllable character, then basic comb
 - `Assets/_Project/Art` our own art and animation
 - `Assets/_Project/Audio` our own audio
 - `Assets/ThirdParty` imported packs (git-ignored)
-- `Docs/` story, design notes, level plans
+- `docs/` working docs (see below)
+- `CLAUDE.md` short rules for AI assistants
+
+## Docs
+Docs describe what the game does now and are updated in the same commit as the change.
+
+| Doc | What it holds |
+|---|---|
+| [docs/GUIDE.md](docs/GUIDE.md) | How we work: adding a feature, tests, checks, commits |
+| [docs/architecture.md](docs/architecture.md) | Folder layout, systems, scenes, input, dependency rules |
+| [docs/PROGRESS.md](docs/PROGRESS.md) | What is built and verified |
+| [docs/TODO.md](docs/TODO.md) | Known gaps and postponed decisions |
+| [docs/features/](docs/features/README.md) | One doc per feature, written before the code |
+| [docs/design/](docs/design/README.md) | Story, art direction, level plans |
